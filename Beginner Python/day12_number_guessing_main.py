@@ -63,7 +63,7 @@ def start_game(mode):
         guess = int(input("Enter your guess (1-100): "))
         if guess == number:
             print(
-                f"You've guessed correctly!\nThe number was {number}, guessed after {get_guess_count(lives, mode)} tries.")
+                f"You've guessed correctly!\nThe number was {number}, guessed after {get_guess_count(lives, mode) + 1} tries.")
             break
         elif guess > number:
             print(f"Too high! {lives - 1} guesses left.")

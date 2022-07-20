@@ -117,6 +117,7 @@ def start_game():
 
     play_again = input("Would you like to play again? 'y' or 'n': ").lower()
     if play_again == 'y':
+        clear()
         start_game()
     else:
         print("Goodbye!")
