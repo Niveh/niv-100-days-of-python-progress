@@ -25,13 +25,14 @@ class Menu:
             MenuItem("cappuccino", 250, 100, 24, 3.0)
         ]
 
-    def __menu_names(self):
+    def menu_names(self):
         return [i._name for i in self._menu]
 
     def get_items(self):
-        return "/".join(self.__menu_names())
+        return "/".join(self.menu_names())
 
-    def find_drink(self, order_name):
-        if order_name in self.__menu_names():
-            return order_name
+    def find_drink(self, order_name: str):
+        for item in self._menu:
+            if order_name == item._name:
+                return item
         print(f'Sorry, "{order_name}" is not available.')
