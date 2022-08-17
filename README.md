@@ -22,5 +22,5 @@ Projects: Hangman game, Blackjack, Higher/Lower game, Number Guessing game.
 #### Intermediate Level Python (Currently on Day 17)
 
 Local IDE Setup, Object-Oriented Programming.
-Projects: Coffee Machine.
+Projects: Coffee Machine, Quiz Game.
 
