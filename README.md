@@ -19,7 +19,7 @@ Days 81-100: Proffesional Level Python
 Working with Variables in Python to manage data, understanding Data Types, String Manipulation, Control Flow, Logical Operators, Randomisation, Lists, Loops, Functions, Dictionaries, Scopes and Debugging. 
 Projects: Hangman game, Blackjack, Higher/Lower game, Number Guessing game.
 
-#### Intermediate Level Python (Currently on Day 17)
+#### Intermediate Level Python (Currently on Day 18)
 
 Local IDE Setup, Object-Oriented Programming.
 Projects: Coffee Machine, Quiz Game.
